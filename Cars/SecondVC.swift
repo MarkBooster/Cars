@@ -12,7 +12,8 @@ class SecondVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var carArray = ["BMW 3 Series", "BMW 7 Series", "BMW X6"]
+    var carArray = ["bmw3", "bmw7", "bmwX6"]
+    var titlesArray = ["BMW 3 Series", "BMW 7 Series", "BMW X6"]
     var identifier = ["A", "B", "C"]
 
     override func viewDidLoad() {
@@ -31,10 +32,13 @@ class SecondVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        if let cell = tableView.dequeueReusableCellWithIdentifier("Cell") {
+        if let cell = tableView.dequeueReusableCellWithIdentifier("CustomCell") as? CustomCell {
+            var carImage: UIImage!
+            carImage = UIImage(named: carArray[indexPath.row])
+            cell.configureCell(carImage, title: titlesArray[indexPath.row])
             return cell
         } else {
-            return UITableViewCell()
+            return CustomCell()
         }
     }
     
@@ -43,6 +47,4 @@ class SecondVC: UIViewController, UITableViewDataSource, UITableViewDelegate {
         let viewController = storyboard?.instantiateViewControllerWithIdentifier(vcName)
         self.navigationController?.pushViewController(viewController!, animated: true)
     }
-
-
 }

@@ -15,6 +15,9 @@ class CustomCell: UITableViewCell {
 
     override func awakeFromNib() {
         super.awakeFromNib()
+        
+        carImage.layer.cornerRadius = 10.0
+        carImage.clipsToBounds = true
     }
     
     func configureCell(image: UIImage, title: String) {
