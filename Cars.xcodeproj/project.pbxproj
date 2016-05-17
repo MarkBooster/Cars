@@ -19,6 +19,12 @@
 		980B85601CEB55950057F2EE /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B855F1CEB55950057F2EE /* ThirdVC.swift */; };
 		980B85621CEB55BE0057F2EE /* FourthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B85611CEB55BE0057F2EE /* FourthVC.swift */; };
 		980B85641CEB55D20057F2EE /* FifthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B85631CEB55D20057F2EE /* FifthVC.swift */; };
+		980B85681CEB72C50057F2EE /* bmwX6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 980B85661CEB72C50057F2EE /* bmwX6.mp4 */; };
+		980B85691CEB72C50057F2EE /* bmw3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 980B85671CEB72C50057F2EE /* bmw3.mp4 */; };
+		980B856B1CEB72DA0057F2EE /* bmw7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 980B856A1CEB72DA0057F2EE /* bmw7.mp4 */; };
+		980B856D1CEB8D950057F2EE /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B856C1CEB8D950057F2EE /* CustomImage.swift */; };
+		980B856F1CEB900F0057F2EE /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B856E1CEB900F0057F2EE /* CustomLabel.swift */; };
+		980B85711CEB984D0057F2EE /* Movieplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B85701CEB984D0057F2EE /* Movieplayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +42,12 @@
 		980B855F1CEB55950057F2EE /* ThirdVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
 		980B85611CEB55BE0057F2EE /* FourthVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthVC.swift; sourceTree = "<group>"; };
 		980B85631CEB55D20057F2EE /* FifthVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FifthVC.swift; sourceTree = "<group>"; };
+		980B85661CEB72C50057F2EE /* bmwX6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bmwX6.mp4; sourceTree = "<group>"; };
+		980B85671CEB72C50057F2EE /* bmw3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bmw3.mp4; sourceTree = "<group>"; };
+		980B856A1CEB72DA0057F2EE /* bmw7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bmw7.mp4; sourceTree = "<group>"; };
+		980B856C1CEB8D950057F2EE /* CustomImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
+		980B856E1CEB900F0057F2EE /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		980B85701CEB984D0057F2EE /* Movieplayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movieplayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +80,7 @@
 		980B85411CEB34470057F2EE /* Cars */ = {
 			isa = PBXGroup;
 			children = (
+				980B85651CEB72A00057F2EE /* Video's */,
 				980B85561CEB36F50057F2EE /* Controller */,
 				980B85551CEB36F00057F2EE /* View */,
 				980B85541CEB36EB0057F2EE /* Model */,
@@ -85,6 +98,9 @@
 				980B85571CEB372C0057F2EE /* CustomButton.swift */,
 				980B855B1CEB44970057F2EE /* CustomCell.swift */,
 				980B855D1CEB46CB0057F2EE /* CustomView.swift */,
+				980B856C1CEB8D950057F2EE /* CustomImage.swift */,
+				980B856E1CEB900F0057F2EE /* CustomLabel.swift */,
+				980B85701CEB984D0057F2EE /* Movieplayer.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -107,6 +123,16 @@
 				980B85631CEB55D20057F2EE /* FifthVC.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		980B85651CEB72A00057F2EE /* Video's */ = {
+			isa = PBXGroup;
+			children = (
+				980B85661CEB72C50057F2EE /* bmwX6.mp4 */,
+				980B85671CEB72C50057F2EE /* bmw3.mp4 */,
+				980B856A1CEB72DA0057F2EE /* bmw7.mp4 */,
+			);
+			name = "Video's";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,8 +194,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				980B85681CEB72C50057F2EE /* bmwX6.mp4 in Resources */,
 				980B854D1CEB34470057F2EE /* LaunchScreen.storyboard in Resources */,
+				980B856B1CEB72DA0057F2EE /* bmw7.mp4 in Resources */,
 				980B854A1CEB34470057F2EE /* Assets.xcassets in Resources */,
+				980B85691CEB72C50057F2EE /* bmw3.mp4 in Resources */,
 				980B85481CEB34470057F2EE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -183,10 +212,13 @@
 			files = (
 				980B85451CEB34470057F2EE /* FirstVC.swift in Sources */,
 				980B855E1CEB46CB0057F2EE /* CustomView.swift in Sources */,
+				980B856F1CEB900F0057F2EE /* CustomLabel.swift in Sources */,
 				980B85621CEB55BE0057F2EE /* FourthVC.swift in Sources */,
 				980B85431CEB34470057F2EE /* AppDelegate.swift in Sources */,
+				980B85711CEB984D0057F2EE /* Movieplayer.swift in Sources */,
 				980B85601CEB55950057F2EE /* ThirdVC.swift in Sources */,
 				980B855C1CEB44970057F2EE /* CustomCell.swift in Sources */,
+				980B856D1CEB8D950057F2EE /* CustomImage.swift in Sources */,
 				980B855A1CEB38AC0057F2EE /* SecondVC.swift in Sources */,
 				980B85581CEB372C0057F2EE /* CustomButton.swift in Sources */,
 				980B85641CEB55D20057F2EE /* FifthVC.swift in Sources */,
