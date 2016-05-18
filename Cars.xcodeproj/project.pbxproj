@@ -24,7 +24,6 @@
 		980B856B1CEB72DA0057F2EE /* bmw7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 980B856A1CEB72DA0057F2EE /* bmw7.mp4 */; };
 		980B856D1CEB8D950057F2EE /* CustomImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B856C1CEB8D950057F2EE /* CustomImage.swift */; };
 		980B856F1CEB900F0057F2EE /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B856E1CEB900F0057F2EE /* CustomLabel.swift */; };
-		980B85711CEB984D0057F2EE /* Movieplayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 980B85701CEB984D0057F2EE /* Movieplayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,7 +46,6 @@
 		980B856A1CEB72DA0057F2EE /* bmw7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bmw7.mp4; sourceTree = "<group>"; };
 		980B856C1CEB8D950057F2EE /* CustomImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImage.swift; sourceTree = "<group>"; };
 		980B856E1CEB900F0057F2EE /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
-		980B85701CEB984D0057F2EE /* Movieplayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movieplayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +98,6 @@
 				980B855D1CEB46CB0057F2EE /* CustomView.swift */,
 				980B856C1CEB8D950057F2EE /* CustomImage.swift */,
 				980B856E1CEB900F0057F2EE /* CustomLabel.swift */,
-				980B85701CEB984D0057F2EE /* Movieplayer.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -215,7 +212,6 @@
 				980B856F1CEB900F0057F2EE /* CustomLabel.swift in Sources */,
 				980B85621CEB55BE0057F2EE /* FourthVC.swift in Sources */,
 				980B85431CEB34470057F2EE /* AppDelegate.swift in Sources */,
-				980B85711CEB984D0057F2EE /* Movieplayer.swift in Sources */,
 				980B85601CEB55950057F2EE /* ThirdVC.swift in Sources */,
 				980B855C1CEB44970057F2EE /* CustomCell.swift in Sources */,
 				980B856D1CEB8D950057F2EE /* CustomImage.swift in Sources */,
@@ -373,6 +369,7 @@
 				980B85531CEB34470057F2EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

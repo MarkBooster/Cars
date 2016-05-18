@@ -140,13 +140,23 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q4U-ib-PUh" customClass="CustomView" customModule="Cars" customModuleProvider="target">
+                                        <rect key="frame" x="50" y="60" width="500" height="2"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2" id="gme-vN-oqw"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="80" id="463-wL-dwC"/>
                                     <constraint firstItem="ksO-Ra-4VM" firstAttribute="centerX" secondItem="8UJ-0l-i51" secondAttribute="centerX" id="NAm-v0-4Kb"/>
+                                    <constraint firstItem="ksO-Ra-4VM" firstAttribute="bottom" secondItem="Q4U-ib-PUh" secondAttribute="bottom" id="PVl-ad-UfG"/>
                                     <constraint firstItem="auW-Zv-Asz" firstAttribute="leading" secondItem="8UJ-0l-i51" secondAttribute="leading" constant="20" id="Wif-RD-9mB"/>
+                                    <constraint firstItem="Q4U-ib-PUh" firstAttribute="leading" secondItem="8UJ-0l-i51" secondAttribute="leading" constant="50" id="atR-fO-N7Z"/>
                                     <constraint firstItem="auW-Zv-Asz" firstAttribute="top" secondItem="8UJ-0l-i51" secondAttribute="top" constant="25" id="bOX-4V-XLv"/>
+                                    <constraint firstAttribute="trailing" secondItem="Q4U-ib-PUh" secondAttribute="trailing" constant="50" id="e3g-mT-gjz"/>
                                     <constraint firstItem="ksO-Ra-4VM" firstAttribute="centerY" secondItem="8UJ-0l-i51" secondAttribute="centerY" id="vNg-Jh-fgI"/>
                                 </constraints>
                             </view>
@@ -182,40 +192,46 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="XEZ-hQ-FUs">
-                                                <rect key="frame" x="5" y="395" width="590" height="150"/>
+                                                <rect key="frame" x="5" y="615" width="590" height="150"/>
                                                 <subviews>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmw3" translatesAutoresizingMaskIntoConstraints="NO" id="pu9-Uz-ev1">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmw3a" translatesAutoresizingMaskIntoConstraints="NO" id="pu9-Uz-ev1">
                                                         <rect key="frame" x="0.0" y="0.0" width="193.5" height="150"/>
                                                     </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmw3" translatesAutoresizingMaskIntoConstraints="NO" id="W9Z-nv-w8W">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmw3b" translatesAutoresizingMaskIntoConstraints="NO" id="W9Z-nv-w8W">
                                                         <rect key="frame" x="198.5" y="0.0" width="193" height="150"/>
                                                     </imageView>
-                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmw3" translatesAutoresizingMaskIntoConstraints="NO" id="z0t-A6-fSX">
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmw3c" translatesAutoresizingMaskIntoConstraints="NO" id="z0t-A6-fSX">
                                                         <rect key="frame" x="396.5" y="0.0" width="193.5" height="150"/>
                                                     </imageView>
                                                 </subviews>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="590" id="E0k-sQ-Y8D"/>
                                                     <constraint firstAttribute="height" constant="150" id="evg-Da-B21"/>
                                                 </constraints>
                                             </stackView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A4i-Ye-3bF">
-                                                <rect key="frame" x="55" y="535" width="490" height="150"/>
+                                                <rect key="frame" x="55" y="755" width="490" height="150"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="150" id="Hiu-g5-yZu"/>
                                                 </constraints>
                                             </view>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmw3" translatesAutoresizingMaskIntoConstraints="NO" id="bJZ-8H-mNU" customClass="CustomImage" customModule="Cars" customModuleProvider="target">
+                                                <rect key="frame" x="10" y="435" width="580" height="190"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="190" id="tTo-Ca-rAx"/>
+                                                </constraints>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="IfN-Ej-xMx" firstAttribute="leading" secondItem="goB-5q-kyD" secondAttribute="leading" constant="10" id="4IY-PE-bQ6"/>
                                             <constraint firstItem="qhV-Wd-AzT" firstAttribute="centerX" secondItem="goB-5q-kyD" secondAttribute="centerX" id="7zk-Wh-e0u"/>
+                                            <constraint firstItem="bJZ-8H-mNU" firstAttribute="leading" secondItem="goB-5q-kyD" secondAttribute="leading" constant="10" id="BQ3-EI-c1b"/>
                                             <constraint firstAttribute="trailing" secondItem="A4i-Ye-3bF" secondAttribute="trailing" constant="55" id="HSO-lq-LIb"/>
                                             <constraint firstAttribute="trailing" secondItem="XEZ-hQ-FUs" secondAttribute="trailing" constant="5" id="N0F-kl-Wdu"/>
+                                            <constraint firstAttribute="trailing" secondItem="bJZ-8H-mNU" secondAttribute="trailing" constant="10" id="PYK-AV-8x1"/>
+                                            <constraint firstItem="bJZ-8H-mNU" firstAttribute="top" secondItem="IfN-Ej-xMx" secondAttribute="bottom" constant="10" id="VGo-Sw-CHH"/>
                                             <constraint firstAttribute="trailing" secondItem="L3C-FS-ImJ" secondAttribute="trailing" constant="10" id="XfP-gh-qXT"/>
-                                            <constraint firstItem="IfN-Ej-xMx" firstAttribute="bottom" secondItem="XEZ-hQ-FUs" secondAttribute="top" constant="30" id="aPl-cW-6l2"/>
-                                            <constraint firstItem="XEZ-hQ-FUs" firstAttribute="centerX" secondItem="goB-5q-kyD" secondAttribute="centerX" id="arU-dS-UA9"/>
                                             <constraint firstItem="A4i-Ye-3bF" firstAttribute="leading" secondItem="goB-5q-kyD" secondAttribute="leading" constant="55" id="b7j-Rj-sfM"/>
                                             <constraint firstAttribute="trailing" secondItem="qhV-Wd-AzT" secondAttribute="trailing" constant="10" id="di2-Jk-KMC"/>
                                             <constraint firstAttribute="trailing" secondItem="IfN-Ej-xMx" secondAttribute="trailing" constant="10" id="ebS-gM-gT0"/>
@@ -223,6 +239,7 @@
                                             <constraint firstItem="qhV-Wd-AzT" firstAttribute="leading" secondItem="goB-5q-kyD" secondAttribute="leading" constant="10" id="i72-l7-zWA"/>
                                             <constraint firstItem="XEZ-hQ-FUs" firstAttribute="bottom" secondItem="A4i-Ye-3bF" secondAttribute="top" constant="10" id="ima-Ri-Rzd"/>
                                             <constraint firstItem="qhV-Wd-AzT" firstAttribute="top" secondItem="L3C-FS-ImJ" secondAttribute="bottom" constant="15" id="kMl-Or-hwI"/>
+                                            <constraint firstItem="bJZ-8H-mNU" firstAttribute="bottom" secondItem="XEZ-hQ-FUs" secondAttribute="top" constant="10" id="mTx-ga-dYI"/>
                                             <constraint firstAttribute="height" constant="920" id="rAN-pI-rfL"/>
                                             <constraint firstItem="XEZ-hQ-FUs" firstAttribute="leading" secondItem="goB-5q-kyD" secondAttribute="leading" constant="5" id="sdR-gN-m6q"/>
                                             <constraint firstItem="L3C-FS-ImJ" firstAttribute="top" secondItem="goB-5q-kyD" secondAttribute="top" constant="10" id="svm-Vd-M2t"/>
@@ -231,26 +248,12 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="goB-5q-kyD" secondAttribute="bottom" id="63f-99-NES"/>
                                     <constraint firstItem="goB-5q-kyD" firstAttribute="top" secondItem="rsh-4u-tYI" secondAttribute="top" id="6Sa-iS-ybs"/>
                                     <constraint firstAttribute="bottom" secondItem="goB-5q-kyD" secondAttribute="bottom" id="BKA-9V-fpm"/>
                                     <constraint firstAttribute="trailing" secondItem="goB-5q-kyD" secondAttribute="trailing" id="CkA-Qw-6el"/>
-                                    <constraint firstItem="goB-5q-kyD" firstAttribute="width" secondItem="rsh-4u-tYI" secondAttribute="width" id="Cup-cZ-3zZ"/>
-                                    <constraint firstItem="goB-5q-kyD" firstAttribute="top" secondItem="rsh-4u-tYI" secondAttribute="top" id="EJz-qs-skk"/>
                                     <constraint firstItem="goB-5q-kyD" firstAttribute="width" secondItem="rsh-4u-tYI" secondAttribute="width" id="IGX-on-93y"/>
                                     <constraint firstItem="goB-5q-kyD" firstAttribute="leading" secondItem="rsh-4u-tYI" secondAttribute="leading" id="hd7-Y5-0f7"/>
-                                    <constraint firstAttribute="trailing" secondItem="goB-5q-kyD" secondAttribute="trailing" id="miZ-eN-EnN"/>
-                                    <constraint firstItem="goB-5q-kyD" firstAttribute="leading" secondItem="rsh-4u-tYI" secondAttribute="leading" id="vfV-YO-yxg"/>
                                 </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="63f-99-NES"/>
-                                        <exclude reference="Cup-cZ-3zZ"/>
-                                        <exclude reference="EJz-qs-skk"/>
-                                        <exclude reference="miZ-eN-EnN"/>
-                                        <exclude reference="vfV-YO-yxg"/>
-                                    </mask>
-                                </variation>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -313,6 +316,13 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0pZ-XZ-pmP" customClass="CustomView" customModule="Cars" customModuleProvider="target">
+                                        <rect key="frame" x="50" y="60" width="500" height="2"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2" id="Ewh-86-uJ2"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -320,7 +330,10 @@
                                     <constraint firstAttribute="height" constant="80" id="6Z2-Pa-B6E"/>
                                     <constraint firstItem="0sH-QD-W0M" firstAttribute="top" secondItem="b0e-9I-1QZ" secondAttribute="top" constant="25" id="7b8-KY-JU7"/>
                                     <constraint firstItem="0sH-QD-W0M" firstAttribute="leading" secondItem="b0e-9I-1QZ" secondAttribute="leading" constant="20" id="F9D-p4-ic6"/>
+                                    <constraint firstItem="0AZ-3B-oLg" firstAttribute="bottom" secondItem="0pZ-XZ-pmP" secondAttribute="bottom" id="NT5-R1-ZlT"/>
                                     <constraint firstItem="0AZ-3B-oLg" firstAttribute="centerX" secondItem="b0e-9I-1QZ" secondAttribute="centerX" id="URB-gr-6uq"/>
+                                    <constraint firstAttribute="trailing" secondItem="0pZ-XZ-pmP" secondAttribute="trailing" constant="50" id="uPc-9b-h9G"/>
+                                    <constraint firstItem="0pZ-XZ-pmP" firstAttribute="leading" secondItem="b0e-9I-1QZ" secondAttribute="leading" constant="50" id="vOP-hL-UmS"/>
                                 </constraints>
                             </view>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="snn-Jh-xqA">
@@ -335,6 +348,17 @@
                                                     <constraint firstAttribute="height" constant="190" id="7Df-5x-aWF"/>
                                                 </constraints>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0U7-eo-zpX">
+                                                <rect key="frame" x="10" y="260" width="580" height="170"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="170" id="doM-QL-GwF"/>
+                                                </constraints>
+                                                <string key="text">De BMW Group kent een lange traditie in het vormgeven van de automobiele toekomst. Wij geloven dat de toekomst het beste te voorspellen is als we deze zelf creëren. Met de BMW 7 Serie creëren wij vandaag al de luxe van morgen. Met baanbrekende innovaties, maatgevend comfort, eigentijds design en een dynamiek die niet alleen indrukwekkend, maar ook uiterst efficiënt is.
+</string>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="15"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="De Boeing van de auto's." textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mi4-Tc-rEk" customClass="CustomLabel" customModule="Cars" customModuleProvider="target">
                                                 <rect key="frame" x="10" y="220" width="580" height="40"/>
                                                 <constraints>
@@ -344,17 +368,59 @@
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmw7" translatesAutoresizingMaskIntoConstraints="NO" id="6x3-u1-0Xe" customClass="CustomImage" customModule="Cars" customModuleProvider="target">
+                                                <rect key="frame" x="10" y="440" width="580" height="190"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="190" id="JBL-mp-z7N"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="pyQ-jd-IAr">
+                                                <rect key="frame" x="5" y="620" width="590" height="150"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmw7a" translatesAutoresizingMaskIntoConstraints="NO" id="uhu-Pn-kv0">
+                                                        <rect key="frame" x="0.0" y="0.0" width="193.5" height="150"/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmw7b" translatesAutoresizingMaskIntoConstraints="NO" id="GuW-Eu-PsG">
+                                                        <rect key="frame" x="198.5" y="0.0" width="193" height="150"/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmw7c" translatesAutoresizingMaskIntoConstraints="NO" id="6EK-8u-3Ip">
+                                                        <rect key="frame" x="396.5" y="0.0" width="193.5" height="150"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="rg7-aK-bsP"/>
+                                                </constraints>
+                                            </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Gc6-Mx-vFP">
+                                                <rect key="frame" x="55" y="760" width="490" height="150"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="D6c-tQ-nyv"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstItem="Mi4-Tc-rEk" firstAttribute="leading" secondItem="JUy-JK-SEH" secondAttribute="leading" constant="10" id="4CF-Ir-coO"/>
+                                            <constraint firstItem="pyQ-jd-IAr" firstAttribute="leading" secondItem="JUy-JK-SEH" secondAttribute="leading" constant="5" id="6le-GM-lbe"/>
                                             <constraint firstItem="zdv-Vl-hIn" firstAttribute="leading" secondItem="JUy-JK-SEH" secondAttribute="leading" constant="10" id="6of-7L-Kvv"/>
+                                            <constraint firstItem="6x3-u1-0Xe" firstAttribute="bottom" secondItem="pyQ-jd-IAr" secondAttribute="top" constant="10" id="Bmv-pw-ygd"/>
                                             <constraint firstItem="Mi4-Tc-rEk" firstAttribute="top" secondItem="zdv-Vl-hIn" secondAttribute="bottom" constant="15" id="HGL-ul-veF"/>
+                                            <constraint firstAttribute="trailing" secondItem="pyQ-jd-IAr" secondAttribute="trailing" constant="5" id="IRT-4z-WKA"/>
+                                            <constraint firstAttribute="trailing" secondItem="0U7-eo-zpX" secondAttribute="trailing" constant="10" id="KzP-7e-wu7"/>
+                                            <constraint firstItem="0U7-eo-zpX" firstAttribute="leading" secondItem="JUy-JK-SEH" secondAttribute="leading" constant="10" id="Led-H6-U9F"/>
+                                            <constraint firstItem="6x3-u1-0Xe" firstAttribute="top" secondItem="0U7-eo-zpX" secondAttribute="bottom" constant="10" id="PFB-jC-dxk"/>
+                                            <constraint firstItem="6x3-u1-0Xe" firstAttribute="leading" secondItem="JUy-JK-SEH" secondAttribute="leading" constant="10" id="crb-Cc-lEj"/>
+                                            <constraint firstItem="0U7-eo-zpX" firstAttribute="top" secondItem="Mi4-Tc-rEk" secondAttribute="bottom" id="fBJ-db-Lnd"/>
+                                            <constraint firstItem="pyQ-jd-IAr" firstAttribute="bottom" secondItem="Gc6-Mx-vFP" secondAttribute="top" constant="10" id="nCF-25-DUZ"/>
                                             <constraint firstAttribute="height" constant="920" id="oCO-z5-3rr"/>
                                             <constraint firstItem="Mi4-Tc-rEk" firstAttribute="centerX" secondItem="JUy-JK-SEH" secondAttribute="centerX" id="oYb-Oh-FtM"/>
                                             <constraint firstItem="zdv-Vl-hIn" firstAttribute="top" secondItem="JUy-JK-SEH" secondAttribute="top" constant="15" id="rBt-cI-Q5q"/>
                                             <constraint firstAttribute="trailing" secondItem="Mi4-Tc-rEk" secondAttribute="trailing" constant="10" id="rkk-mj-if5"/>
+                                            <constraint firstAttribute="trailing" secondItem="6x3-u1-0Xe" secondAttribute="trailing" constant="10" id="sFh-fp-eJW"/>
                                             <constraint firstAttribute="trailing" secondItem="zdv-Vl-hIn" secondAttribute="trailing" constant="10" id="sLH-lk-m3z"/>
+                                            <constraint firstAttribute="trailing" secondItem="Gc6-Mx-vFP" secondAttribute="trailing" constant="55" id="tGR-3L-DnX"/>
+                                            <constraint firstItem="Gc6-Mx-vFP" firstAttribute="leading" secondItem="JUy-JK-SEH" secondAttribute="leading" constant="55" id="vor-CC-BlQ"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -380,6 +446,9 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="1000"/>
+                    <connections>
+                        <outlet property="videoContainer" destination="Gc6-Mx-vFP" id="qpB-GJ-5Ac"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bnQ-kt-cpE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -424,13 +493,23 @@
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <nil key="highlightedColor"/>
                                     </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HQ3-GR-1kx" customClass="CustomView" customModule="Cars" customModuleProvider="target">
+                                        <rect key="frame" x="50" y="60" width="500" height="2"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2" id="dDa-K9-NQS"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="HQ3-GR-1kx" secondAttribute="trailing" constant="50" id="04c-FI-Ieb"/>
                                     <constraint firstItem="e4B-k3-ATw" firstAttribute="centerX" secondItem="UXI-G4-MKe" secondAttribute="centerX" id="3Ul-xv-bqI"/>
                                     <constraint firstAttribute="height" constant="80" id="3WI-GR-DEF"/>
                                     <constraint firstItem="obO-qG-TmT" firstAttribute="top" secondItem="UXI-G4-MKe" secondAttribute="top" constant="25" id="PBZ-rM-qwb"/>
+                                    <constraint firstItem="HQ3-GR-1kx" firstAttribute="leading" secondItem="UXI-G4-MKe" secondAttribute="leading" constant="50" id="ecD-5x-Fxx"/>
                                     <constraint firstItem="e4B-k3-ATw" firstAttribute="centerY" secondItem="UXI-G4-MKe" secondAttribute="centerY" id="fwW-mL-RhY"/>
+                                    <constraint firstItem="e4B-k3-ATw" firstAttribute="bottom" secondItem="HQ3-GR-1kx" secondAttribute="bottom" id="neb-IB-ekL"/>
                                     <constraint firstItem="obO-qG-TmT" firstAttribute="leading" secondItem="UXI-G4-MKe" secondAttribute="leading" constant="20" id="xZp-LS-Lxr"/>
                                 </constraints>
                             </view>
@@ -455,15 +534,67 @@
                                                 <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" numberOfLines="50" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0rs-L9-osO">
+                                                <rect key="frame" x="10" y="260" width="580" height="170"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="170" id="Fpj-ZB-QXt"/>
+                                                </constraints>
+                                                <string key="text">Krachtig en atletisch. De robuuste uitstraling van een BMW X model, en tegelijkertijd de sportieve trekken van een coupé. De BMW X6 verlegt alle grenzen. Zijn sterke BMW TwinPower  Turbo motoren volgen het BMW EfficientDynamics  principe en verenigen dynamiek en efficiency. BMW xDrive  brengt het vermogen stabiel op de weg. </string>
+                                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="15"/>
+                                                <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmwX6" translatesAutoresizingMaskIntoConstraints="NO" id="rsM-rO-G55" customClass="CustomImage" customModule="Cars" customModuleProvider="target">
+                                                <rect key="frame" x="10" y="440" width="580" height="190"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="190" id="yEG-Ad-0i9"/>
+                                                </constraints>
+                                            </imageView>
+                                            <stackView opaque="NO" contentMode="scaleAspectFit" distribution="fillEqually" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="2XP-Ru-qbb">
+                                                <rect key="frame" x="5" y="620" width="590" height="150"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmwx6a" translatesAutoresizingMaskIntoConstraints="NO" id="pM6-Gk-hgc">
+                                                        <rect key="frame" x="0.0" y="0.0" width="193.5" height="150"/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmwx6b" translatesAutoresizingMaskIntoConstraints="NO" id="HU0-UG-x6o">
+                                                        <rect key="frame" x="198.5" y="0.0" width="193" height="150"/>
+                                                    </imageView>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bmwx6c" translatesAutoresizingMaskIntoConstraints="NO" id="ZXK-YL-2Zr">
+                                                        <rect key="frame" x="396.5" y="0.0" width="193.5" height="150"/>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="P9L-Ne-j2Q"/>
+                                                </constraints>
+                                            </stackView>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yiy-EX-UhZ">
+                                                <rect key="frame" x="55" y="760" width="490" height="150"/>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="150" id="wPz-aV-KGb"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         <constraints>
+                                            <constraint firstItem="2XP-Ru-qbb" firstAttribute="bottom" secondItem="yiy-EX-UhZ" secondAttribute="top" constant="10" id="2qL-Nu-c7a"/>
+                                            <constraint firstItem="yiy-EX-UhZ" firstAttribute="leading" secondItem="nJm-pV-GzM" secondAttribute="leading" constant="55" id="4NX-ta-LrT"/>
                                             <constraint firstItem="eat-wG-Jdm" firstAttribute="top" secondItem="A0a-OC-sAQ" secondAttribute="bottom" constant="15" id="4WP-04-1vR"/>
+                                            <constraint firstItem="rsM-rO-G55" firstAttribute="leading" secondItem="nJm-pV-GzM" secondAttribute="leading" constant="10" id="5wc-dJ-zdG"/>
                                             <constraint firstAttribute="trailing" secondItem="eat-wG-Jdm" secondAttribute="trailing" constant="10" id="6E6-7w-p2p"/>
+                                            <constraint firstAttribute="trailing" secondItem="2XP-Ru-qbb" secondAttribute="trailing" constant="5" id="8E9-M6-Df2"/>
+                                            <constraint firstAttribute="trailing" secondItem="0rs-L9-osO" secondAttribute="trailing" constant="10" id="IvE-Nq-19D"/>
+                                            <constraint firstItem="0rs-L9-osO" firstAttribute="leading" secondItem="nJm-pV-GzM" secondAttribute="leading" constant="10" id="Ksv-wW-wnd"/>
+                                            <constraint firstItem="0rs-L9-osO" firstAttribute="top" secondItem="eat-wG-Jdm" secondAttribute="bottom" id="Oey-Zf-O8U"/>
+                                            <constraint firstItem="rsM-rO-G55" firstAttribute="top" secondItem="0rs-L9-osO" secondAttribute="bottom" constant="10" id="RyJ-XM-Uuk"/>
+                                            <constraint firstItem="rsM-rO-G55" firstAttribute="bottom" secondItem="2XP-Ru-qbb" secondAttribute="top" constant="10" id="S6C-Ef-n2X"/>
                                             <constraint firstAttribute="height" constant="920" id="Uuo-9s-8z9"/>
                                             <constraint firstItem="eat-wG-Jdm" firstAttribute="leading" secondItem="nJm-pV-GzM" secondAttribute="leading" constant="10" id="amH-fH-IcO"/>
+                                            <constraint firstAttribute="trailing" secondItem="rsM-rO-G55" secondAttribute="trailing" constant="10" id="itw-3h-ruK"/>
                                             <constraint firstItem="A0a-OC-sAQ" firstAttribute="top" secondItem="nJm-pV-GzM" secondAttribute="top" constant="15" id="iyW-Dd-r3p"/>
+                                            <constraint firstAttribute="trailing" secondItem="yiy-EX-UhZ" secondAttribute="trailing" constant="55" id="lZc-zI-VUF"/>
                                             <constraint firstItem="A0a-OC-sAQ" firstAttribute="leading" secondItem="nJm-pV-GzM" secondAttribute="leading" constant="10" id="mOj-cG-BkI"/>
+                                            <constraint firstItem="2XP-Ru-qbb" firstAttribute="leading" secondItem="nJm-pV-GzM" secondAttribute="leading" constant="5" id="pGw-Gb-Efi"/>
                                             <constraint firstAttribute="trailing" secondItem="A0a-OC-sAQ" secondAttribute="trailing" constant="10" id="ygK-k8-g2v"/>
                                         </constraints>
                                     </view>
@@ -490,6 +621,9 @@
                     </view>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
                     <size key="freeformSize" width="600" height="1000"/>
+                    <connections>
+                        <outlet property="videoContainer" destination="yiy-EX-UhZ" id="EFF-25-axR"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O2Z-rn-KRz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -638,12 +772,21 @@
     </scenes>
     <resources>
         <image name="bmw3" width="1920" height="1200"/>
+        <image name="bmw3a" width="1920" height="1200"/>
+        <image name="bmw3b" width="1920" height="1200"/>
+        <image name="bmw3c" width="1920" height="1200"/>
         <image name="bmw7" width="1920" height="1200"/>
+        <image name="bmw7a" width="1920" height="1200"/>
+        <image name="bmw7b" width="1920" height="1200"/>
+        <image name="bmw7c" width="1920" height="1200"/>
         <image name="bmwX6" width="1920" height="1200"/>
+        <image name="bmwx6a" width="1920" height="1200"/>
+        <image name="bmwx6b" width="1920" height="1200"/>
+        <image name="bmwx6c" width="1920" height="1200"/>
         <image name="carsBackground" width="1920" height="1080"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="Nje-UF-DJI"/>
         <segue reference="Km2-2J-zAR"/>
+        <segue reference="Bzc-DP-iu5"/>
     </inferredMetricsTieBreakers>
 </document>
